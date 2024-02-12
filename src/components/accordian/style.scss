@@ -1,0 +1,44 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+.title {
+  font-size: 5em;
+  color: #00000a;
+  padding-bottom: 20px;
+}
+
+.container{
+  width: 50dvw;
+  display: flex;
+  flex-direction: column;
+}
+
+.accordionContainer {
+  padding-bottom: 10px;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-width: 1px;
+  border-color: #00000a;
+}
+
+.icon {
+  height: 15px;
+  width: 15px;
+}
+
+.border {
+  border-width: 1px;
+  border-color: #00000a;
+}
